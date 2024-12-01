@@ -1,5 +1,5 @@
 const Fastify = require("fastify");
-const { musicallydown } = require("./tiktok.js");
+const { musicallydown } = require("./api/tiktok.js");
 
 const app = Fastify({ logger: true });
 
